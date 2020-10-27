@@ -5,10 +5,10 @@ def hello_t(array)
     yield array[i]
     i= i + 1
   end
+  array
   else
     puts "Hey! No block was given!"
   end
-  array
 end
 
 # call your method here!
