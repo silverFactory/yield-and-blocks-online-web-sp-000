@@ -4,7 +4,7 @@ def hello_t(array)
     yield array[i]
     i= i + 1
   end
-  array.length > 0 ? array : "Hey! No block was given!"
+  array.length != nil ? array : "Hey! No block was given!"
 end
 
 # call your method here!
